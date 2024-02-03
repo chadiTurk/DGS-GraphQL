@@ -3,5 +3,9 @@ type Playlist{
     #Fields go here
     id: ID!
     name: String!
-    description:String
+    description: String
+}
+
+type Query{
+    featuredPlaylists: [Playlist!]!
 }
