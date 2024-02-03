@@ -1,0 +1,7 @@
+"A curated description of tracks designed for a specific activity or mood"
+type Playlist{
+    #Fields go here
+    id: ID!
+    name: String!
+    description:String
+}
